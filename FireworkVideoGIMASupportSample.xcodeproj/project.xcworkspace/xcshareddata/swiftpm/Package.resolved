@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FireworkVideo",
+        "repositoryURL": "git@github.com:loopsocial/firework_ios_sdk.git",
+        "state": {
+          "branch": null,
+          "revision": "c7aab135f4629019ad839d176989ce256f287ea0",
+          "version": "0.7.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

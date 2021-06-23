@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84A3028A2683A6AB00C3EFCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A302892683A6AB00C3EFCB /* AppDelegate.swift */; };
+		84A3028C2683A6AB00C3EFCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3028B2683A6AB00C3EFCB /* SceneDelegate.swift */; };
+		84A302932683A6AE00C3EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A302922683A6AE00C3EFCB /* Assets.xcassets */; };
+		84A302962683A6AE00C3EFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A302942683A6AE00C3EFCB /* LaunchScreen.storyboard */; };
+		84A3029F2683A93B00C3EFCB /* FireworkVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 84A3029E2683A93B00C3EFCB /* FireworkVideo */; };
+		84A302A22683A97600C3EFCB /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A302A02683A97600C3EFCB /* Storyboard.storyboard */; };
+		84A302A32683A97600C3EFCB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A302A12683A97600C3EFCB /* TabBarController.swift */; };
+		84A302A52683AA4D00C3EFCB /* GridVideoFeedViewContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A302A42683AA4D00C3EFCB /* GridVideoFeedViewContainerController.swift */; };
+		84A302BB2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A302BA2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework */; };
+		84A302BC2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84A302BA2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84A302C12683B92000C3EFCB /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84A302C02683B92000C3EFCB /* SampleCode.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84A302BD2683B7ED00C3EFCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84A302BC2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84A302862683A6AB00C3EFCB /* FireworkVideoGIMASupportSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireworkVideoGIMASupportSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A302892683A6AB00C3EFCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84A3028B2683A6AB00C3EFCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84A302922683A6AE00C3EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84A302952683A6AE00C3EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84A302972683A6AE00C3EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A302A02683A97600C3EFCB /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		84A302A12683A97600C3EFCB /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		84A302A42683AA4D00C3EFCB /* GridVideoFeedViewContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridVideoFeedViewContainerController.swift; sourceTree = "<group>"; };
+		84A302BA2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInteractiveMediaAds.framework; path = "local-dependencies/GoogleInteractiveMediaAds.framework"; sourceTree = "<group>"; };
+		84A302C02683B92000C3EFCB /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84A302832683A6AB00C3EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A302BB2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework in Frameworks */,
+				84A3029F2683A93B00C3EFCB /* FireworkVideo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84A3027D2683A6AB00C3EFCB = {
+			isa = PBXGroup;
+			children = (
+				84A302BF2683B90B00C3EFCB /* Configuration */,
+				84A302882683A6AB00C3EFCB /* FireworkVideoGIMASupportSample */,
+				84A302872683A6AB00C3EFCB /* Products */,
+				84A302B92683B7ED00C3EFCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84A302872683A6AB00C3EFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A302862683A6AB00C3EFCB /* FireworkVideoGIMASupportSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84A302882683A6AB00C3EFCB /* FireworkVideoGIMASupportSample */ = {
+			isa = PBXGroup;
+			children = (
+				84A302892683A6AB00C3EFCB /* AppDelegate.swift */,
+				84A302A02683A97600C3EFCB /* Storyboard.storyboard */,
+				84A302A42683AA4D00C3EFCB /* GridVideoFeedViewContainerController.swift */,
+				84A302A12683A97600C3EFCB /* TabBarController.swift */,
+				84A3028B2683A6AB00C3EFCB /* SceneDelegate.swift */,
+				84A302922683A6AE00C3EFCB /* Assets.xcassets */,
+				84A302942683A6AE00C3EFCB /* LaunchScreen.storyboard */,
+				84A302972683A6AE00C3EFCB /* Info.plist */,
+			);
+			path = FireworkVideoGIMASupportSample;
+			sourceTree = "<group>";
+		};
+		84A302B92683B7ED00C3EFCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A302BA2683B7ED00C3EFCB /* GoogleInteractiveMediaAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84A302BF2683B90B00C3EFCB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				84A302C02683B92000C3EFCB /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84A302852683A6AB00C3EFCB /* FireworkVideoGIMASupportSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84A3029A2683A6AE00C3EFCB /* Build configuration list for PBXNativeTarget "FireworkVideoGIMASupportSample" */;
+			buildPhases = (
+				84A302822683A6AB00C3EFCB /* Sources */,
+				84A302832683A6AB00C3EFCB /* Frameworks */,
+				84A302842683A6AB00C3EFCB /* Resources */,
+				84A302BD2683B7ED00C3EFCB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireworkVideoGIMASupportSample;
+			packageProductDependencies = (
+				84A3029E2683A93B00C3EFCB /* FireworkVideo */,
+			);
+			productName = FireworkVideoGIMASupportSample;
+			productReference = 84A302862683A6AB00C3EFCB /* FireworkVideoGIMASupportSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84A3027E2683A6AB00C3EFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					84A302852683A6AB00C3EFCB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 84A302812683A6AB00C3EFCB /* Build configuration list for PBXProject "FireworkVideoGIMASupportSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84A3027D2683A6AB00C3EFCB;
+			packageReferences = (
+				84A3029D2683A93B00C3EFCB /* XCRemoteSwiftPackageReference "firework_ios_sdk" */,
+			);
+			productRefGroup = 84A302872683A6AB00C3EFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84A302852683A6AB00C3EFCB /* FireworkVideoGIMASupportSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84A302842683A6AB00C3EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A302962683A6AE00C3EFCB /* LaunchScreen.storyboard in Resources */,
+				84A302A22683A97600C3EFCB /* Storyboard.storyboard in Resources */,
+				84A302932683A6AE00C3EFCB /* Assets.xcassets in Resources */,
+				84A302C12683B92000C3EFCB /* SampleCode.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84A302822683A6AB00C3EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A302A52683AA4D00C3EFCB /* GridVideoFeedViewContainerController.swift in Sources */,
+				84A302A32683A97600C3EFCB /* TabBarController.swift in Sources */,
+				84A3028A2683A6AB00C3EFCB /* AppDelegate.swift in Sources */,
+				84A3028C2683A6AB00C3EFCB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84A302942683A6AE00C3EFCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84A302952683A6AE00C3EFCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84A302982683A6AE00C3EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A302C02683B92000C3EFCB /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84A302992683A6AE00C3EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A302C02683B92000C3EFCB /* SampleCode.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A3029B2683A6AE00C3EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A302C02683B92000C3EFCB /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/local-dependencies",
+				);
+				INFOPLIST_FILE = FireworkVideoGIMASupportSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.fw.FireworkVideoGIMASupportSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SAMPLE_CODE_DISAMBIGUATOR = "${DEVELOPMENT_TEAM}";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84A3029C2683A6AE00C3EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A302C02683B92000C3EFCB /* SampleCode.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/local-dependencies",
+				);
+				INFOPLIST_FILE = FireworkVideoGIMASupportSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tv.fw.FireworkVideoGIMASupportSample${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SAMPLE_CODE_DISAMBIGUATOR = "${DEVELOPMENT_TEAM}";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84A302812683A6AB00C3EFCB /* Build configuration list for PBXProject "FireworkVideoGIMASupportSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A302982683A6AE00C3EFCB /* Debug */,
+				84A302992683A6AE00C3EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84A3029A2683A6AE00C3EFCB /* Build configuration list for PBXNativeTarget "FireworkVideoGIMASupportSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A3029B2683A6AE00C3EFCB /* Debug */,
+				84A3029C2683A6AE00C3EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84A3029D2683A93B00C3EFCB /* XCRemoteSwiftPackageReference "firework_ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:loopsocial/firework_ios_sdk.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84A3029E2683A93B00C3EFCB /* FireworkVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84A3029D2683A93B00C3EFCB /* XCRemoteSwiftPackageReference "firework_ios_sdk" */;
+			productName = FireworkVideo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 84A3027E2683A6AB00C3EFCB /* Project object */;
+}

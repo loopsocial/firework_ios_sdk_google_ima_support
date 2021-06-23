@@ -1,0 +1,12 @@
+.DS_Store
+/.build
+/Packages
+**/xcuserdata/*
+
+
+tmp/
+local-dependencies/
+
+.swiftpm/
+
+/IDEWorkspaceChecks.plist
