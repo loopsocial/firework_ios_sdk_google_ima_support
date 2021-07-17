@@ -406,7 +406,7 @@
 			repositoryURL = "git@github.com:loopsocial/firework_ios_sdk.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.7.0;
+				minimumVersion = 0.8.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
