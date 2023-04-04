@@ -14,7 +14,7 @@ team / engineering team you are co-ordinating with and ensure your Firework acco
 This supporting library assumes basic familiarity with Google IMA. If needed, read over the IMA [Get Started](https://developers.google.com/interactive-media-ads/docs/sdks/ios/client-side) before diving in. Ensure compliance with user consent policies by reviewing the Google User Messaging Platform (UMP) [Quick Start Guide](https://developers.google.com/admob/ump/ios/quick-start).
 
 
-**The supporting library only supports IMA SDK 3.14 or higher. Using the supporting library alongside a version of IMA SDK below 3.14 may result in undefined behavior.**
+**The supporting library only supports IMA SDK 3.16.3 or higher. Using the supporting library alongside a version of IMA SDK below 3.16.3 may result in undefined behavior.**
 
 ## FireworkVideo SDK Documentation
 
