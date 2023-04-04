@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks  = "FireworkVideoGIMASupport.xcframework"
   s.cocoapods_version        = '>= 1.10.0'
 
-  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.14'
+  s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.16.3'
 
 end
