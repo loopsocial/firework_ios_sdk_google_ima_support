@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "FireworkVideoGIMASupportDependencies",
             dependencies: [
-                .product(name: "GoogleInteractiveMediaAds", package: "GoogleInteractiveMediaAds")
+                .product(name: "GoogleInteractiveMediaAds", package: "GoogleAds-IMA-iOS-SDK")
             ]
         )
     ]
