@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "FireworkVideoGAMSupport",
+    name: "FireworkVideoGIMASupport",
     platforms: [
         .iOS(.v12),
     ],
